@@ -42,4 +42,14 @@ To use this app, follow these steps:
 
 ## How Structure of Git Branches works in Real Projects
 
+A Git branching strategy that includes "Master," "UAT," "Dev," and "Feature" branches is a common approach to managing software development projects. Here's how this strategy works:
+
+- **Master Branch**: The "master" branch is where you store the production-ready code. This is the branch that you'll deploy to your live environment.
+
+- **UAT Branch**: The "UAT" (user acceptance testing) branch is where you test changes in a staging environment before promoting them to the production environment. This branch helps ensure that new changes and features work as expected and don't introduce regressions or other issues.
+
+- **Dev Branch**: The "dev" branch is where you integrate new features and bug fixes before they're merged into the UAT or master branch. This branch is often used by developers to work on new features or bug fixes independently of other team members.
+
+- **Feature Branch**: The "feature" branch is where developers work on new features or bug fixes. Each new feature or bug fix should have its own branch. This helps ensure that changes can be worked on independently and merged back into the dev branch when they're ready.
+
 ![Git-Branching-Strategy](./src/assets/Branching-Strategy.png);
